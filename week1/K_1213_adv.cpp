@@ -10,7 +10,7 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL); cout.tie(NULL);
     
-    // 1. Input string and str to map(char type)
+    // 1. Input string and str to array
     cin >> s;
     for(char c : s) cnt[c]++;
 
