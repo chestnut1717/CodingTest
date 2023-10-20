@@ -3,8 +3,6 @@ using namespace std;
 
 string s;
 bool ret;
-vector<char> v{'a', 'e', 'i', 'o', 'u'};
-stack<char> st;
 
 bool isVowel(char c) {
     return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
